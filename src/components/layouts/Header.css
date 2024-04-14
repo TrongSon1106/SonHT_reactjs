@@ -1,0 +1,119 @@
+.header,
+.header--nav_part,
+.header--nav_options,
+.header--user_part {
+  display: flex;
+  align-items: center;
+}
+
+.header--logo {
+  /* width: 3.5rem; */
+  width: 65px;
+  cursor: pointer;
+}
+
+.header--option_chosen {
+  width: 80px;
+  border-bottom: 3px solid var(--primary, #ade34d);
+  position: absolute;
+  bottom: -18px;
+  left: 20px;
+}
+
+.header--user_part {
+  gap: 16px;
+}
+
+.header--avatar_line {
+  width: 1px;
+  height: 16px;
+  background: rgba(31, 32, 29, 0.5);
+}
+
+.header--avatar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header--avatar {
+  cursor: pointer;
+}
+
+/* .header--avatar_container:hover .header--avatar_userbox{
+  opacity: 100%;
+} */
+
+.header--avatar_userbox {
+  /* opacity: 0%; */
+  font-size: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.15);
+  width: 288px;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  /* transition: opacity 0.5s; */
+}
+
+.header--avatar_userbox_option {
+  padding: 6px;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.header--avatar_userbox_option:hover {
+  background-color: rgb(232, 232, 232);
+}
+
+.header--avatar_userbox_user,
+.header--avatar_userbox_details,
+.header--avatar_userbox_actions {
+  display: flex;
+  padding: 8px 10px 10px 10px;
+}
+
+.header--avatar_userbox_details,
+.header--avatar_userbox_actions {
+  flex-direction: column;
+}
+
+.header--avatar_userbox_user {
+  gap: 16px;
+  align-items: center;
+}
+
+.header--avatar_userbox_img {
+  height: 48px;
+}
+
+.header--avatar_userbox_name {
+  font-weight: 700;
+}
+
+.header--avatar_userbox_line {
+  width: 288px;
+  height: 1px;
+  background: rgba(31, 32, 29, 0.1);
+}
+
+.header--avatar_userbox_score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+
+.header--avatar_userbox_score_value {
+  color: var(--primary, #ade34d);
+  /* text-align: right; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}

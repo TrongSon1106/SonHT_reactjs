@@ -1,0 +1,33 @@
+.question {
+  display: flex;
+  text-align: left;
+  cursor: pointer;
+  margin: 16px 0;
+  gap: 10px;
+}
+
+.cq--dark_line {
+  height: 2px;
+  width: 100%;
+  background: rgba(31, 32, 29, 0.10);
+}
+
+.plus {
+  width: 12px;
+}
+
+.questionText {
+  color: rgba(31, 32, 29, 0.5);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.questionAnswer {
+  color: green;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 30px;
+  width: 700px;
+  margin-bottom: 16px
+}

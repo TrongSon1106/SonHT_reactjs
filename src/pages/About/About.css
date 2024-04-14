@@ -1,0 +1,45 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 144px;
+  margin: 144px 0;
+}
+
+.about--images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about--text_container {
+  /* width: 100%; */
+  padding: 0 10%;
+}
+
+.about--who,
+.about--what {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about--headline {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about--text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about--text_container {
+    text-align: center;
+  }
+
+  .about {
+    gap: 72px;
+    margin: 120px 0 72px 0;
+  }
+}

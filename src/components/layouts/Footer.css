@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 96px;
+  width: 100%;
+  border-top: 1px solid var(--neutral-black-10, rgba(31, 32, 29, 0.1));
+  background: #fff;
+  padding: 0 10%;
+}
+
+.footer--contacts,
+.footer--icons,
+.footer--company_name {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.footer--company_name {
+  font-size: 13px;
+}
+
+.footer--contacts {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.footer--contact_gmail {
+  color: var(--primary, #ADE34D);
+}

@@ -1,0 +1,448 @@
+/* CSS Blur */
+.blurBg {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  opacity: 25%;
+  position: absolute;
+}
+
+.main--logo_text {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.main--header_text {
+  padding-top: 31px;
+}
+
+.main--logo_header {
+  padding-top: 15px;
+}
+
+/* .main--container {
+  width: 100%;
+} */
+
+.main--intro {
+  color: white;
+  width: 100%;
+  height: 650px;
+  background: url("./pictures/forest1.png");
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main--chungtoii {
+  /* Chúng tôi là Blue Wave */
+
+  height: 48px;
+
+  /* H4 */
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  /* Primary */
+
+  color: #ade34d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.main--mission {
+  /* H1 */
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+
+  color: #ffffff;
+  z-index: 10;
+
+  /* Inside auto layout */
+}
+
+.main--la {
+  /* là truyền cảm hứng, thúc đẩy và trao quyền cho các cá nhân tham gia vào những phong trào môi trường tại Việt Nam. */
+
+  width: 579px;
+  height: 60px;
+
+  /* Body 1 */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.main--thamgia {
+  /* Button */
+
+  /* Auto layout */
+
+  padding: 11px 22px;
+  gap: 8px;
+
+  width: 255px;
+  height: 48px;
+
+  /* Brand Gradient */
+
+  background: linear-gradient(90deg, #46f04e 0%, #ade34d 100%);
+  border-radius: 100px;
+
+  /* Inside auto layout */
+
+  /* Button/Large */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+
+  /* Neutral/Black 100 */
+
+  color: #1f201d;
+}
+
+.main--assist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  z-index: 10;
+}
+
+.main--challenge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+
+  width: 100%;
+  height: 400px;
+
+  background: #ffffff;
+}
+
+.main--challenge_header {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+
+  color: #000000;
+}
+
+.main--challenge_content {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #000000;
+  width: 753px;
+}
+
+.main--dump {
+  width: 100%;
+  background-image: url("./pictures/dumpn1.png");
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.main--problem {
+  display: flex;
+  width: 567px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  color: #ffffff;
+  height: 695px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.main--problem1 {
+  color: #fff;
+  /* H1 */
+  font-size: 64px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.main--problem2 {
+  
+  width: 488px;
+  flex-direction: column;
+  color: #fff;
+  /* Body 1 */
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+}
+
+.main--second_pic {
+  width: 300px;
+  flex-shrink: 0;
+  background-image: url("./pictures/dumpn2.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 90%;
+  right: 100px;
+}
+
+.main--third_pic {
+  width: 400px;
+  flex-shrink: 0;
+  background-image: url("./pictures/dumpn3.png");
+  bottom: 0px;
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 90%;
+  right: 150px;
+}
+
+.main--pics {
+  display: flex;
+  color: white;
+}
+
+.main--gift {
+  display: flex;
+  width: 1040px;
+  align-items: center;
+}
+
+.main--left_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.main--upper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.main--tichdiem {
+  color: var(--neutral-black-100, #1f201d);
+
+  /* H3 */
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.main--banseduoc {
+  display: flex;
+  width: 512px;
+  flex-direction: column;
+  color: var(--neutral-black-100, #1f201d);
+
+  /* Body 1 */
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+}
+
+.main--doiqua {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+.main--dennhiemvu {
+  border-radius: 100px;
+  background: var(
+    --brand-gradient,
+    linear-gradient(90deg, #46f04e 0%, #ade34d 100%)
+  );
+  display: flex;
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--neutral-black-100, #1f201d);
+  border: 0px;
+
+  /* Button/Large */
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.main--tiepcan {
+  background-image: url("./pictures/volunteern1.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: 100%;
+}
+
+.main--cachchungta {
+  margin-top: 100px;
+  color: #fff;
+
+  /* H3 */
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main--chungtoi {
+  color: #fff;
+  text-align: center;
+
+  /* Body 1 */
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 670.95px;
+  justify-content: center;
+}
+
+.main--volunteer2 {
+  width: 70%;
+  margin-top: 20%;
+}
+
+.main--hayhanhdong {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  color: var(--neutral-black-100, #1f201d);
+  text-align: center;
+
+  /* H3 */
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 120px;
+  padding-bottom: 120px;
+}
+
+.main--last {
+  border-top: 1px solid gainsboro;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0px;
+  width: 90%;
+}
+
+.main--greenenv {
+  color: #000;
+
+  /* Cation */
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+
+  display: flex;
+  width: 140px;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-top: 7px;
+}
+
+.main--mail {
+  color: var(--primary, #ade34d);
+
+  /* Subtitle 2 */
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.main--number {
+  color: var(--neutral-black-100, #1f201d);
+
+  /* Subtitle 2 */
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.main--icon {
+  display: flex;
+  width: 127px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.main--middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+}

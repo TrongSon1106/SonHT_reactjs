@@ -1,0 +1,191 @@
+.mission-details--mission-details {
+  max-width: 1040px;
+  /* width: 100%; */
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.mission-details--mission-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 64px 0 33px 0;
+}
+
+.mission--details_chip {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 100px;
+}
+
+.mission-details--general-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mission-details--first_line_details {
+  display: flex;
+  gap: 16px;
+}
+
+.mission-details--volunteers_required {
+  display: flex;
+  /* flex-direction: column; */
+  font-size: 30px;
+  align-items: center;
+  gap: 5px;
+}
+
+.mission-details--volunteers_required img {
+  height: 30px;
+}
+
+.mission-details--header--first_line, 
+.mission-details--header--second_line {
+  font-size: 40px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.mission-details--header--first_line {
+  font-weight: 700;
+  flex-direction: column;
+}
+
+.mission-details--mission-rewards {
+  color: var(--primary, #ade34d);
+}
+
+.mission-details--contact {
+  display: flex;
+  align-items: center;
+}
+
+.mission-details--mission-location {
+  font-size: 16px;
+}
+
+.mission-details--mission-call {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.mission-details--button-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.mission-details--button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mission-details--button {
+  display: flex;
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+}
+
+.mission-details--plus_sign {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.mission-details--join-button, .mission-details--upload_button {
+  background: var(
+    --brand-gradient,
+    linear-gradient(90deg, #46f04e 0%, #ade34d 100%)
+  );
+}
+
+.mission-details--cancel_button {
+  border: 1px solid #46f04e;
+  background: white;
+}
+
+.mission-details--mission-img {
+  width: 100%;
+}
+
+.mission-details--dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.mission-details--mission-info {
+  font-size: 20px;
+}
+
+.mission-details--title {
+  font-weight: 700;
+  font-size: 24px; 
+}
+
+.mission-details--mission-description {
+  margin-top: 32px;
+}
+
+.mission-details--mission-instruction {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 144px;
+}
+
+.mission-details--mission-instruction ul {
+  padding-left: 10px;
+  list-style-position: inside;
+}
+
+.mission-details--mission-instruction ul li::marker {
+  font-size: 10px;
+  align-self: center;
+}
+
+.mission-details--mission-regulation {
+  margin-top: 32px;
+  margin-bottom: 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mission-details--regulation-text {
+  font-size: 18px;
+}
+
+.mission-details--map {
+  width: 100%;
+  margin-bottom: 144px;
+}
+
+@media screen and (max-width: 600px) {
+  /* .mission-details--mission-details {
+    padding: 0 20px;
+  } */
+
+  .mission-details--mission-header {
+    flex-direction: column;
+  }
+
+  .mission-details--header--first_line, .mission-details--header--second_line {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .mission-details--button-container {
+    align-items: flex-start;
+  }
+  
+}

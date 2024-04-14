@@ -1,0 +1,18 @@
+.commonQuestions {
+  width: 100%;
+  padding: 64px 10%;
+  background-color: rgba(31, 32, 29, 0.05);
+}
+
+.cq--headline {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 48px;
+  max-width: 530px;
+}
+
+.cq--questions_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}

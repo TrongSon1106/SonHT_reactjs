@@ -1,0 +1,48 @@
+.joinInvitation {
+  width: 100%;
+  padding: 0 10%;
+}
+
+.ji--content_container {
+  max-width: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.ji--headline {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.ji--text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.ji--buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.ji--button {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .ji--content_container {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .ji--buttons {
+    flex-direction: column;
+  }
+
+  .ji--button {
+    width: 100%;
+  }
+}
+

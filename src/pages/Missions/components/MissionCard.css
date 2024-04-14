@@ -1,0 +1,217 @@
+.mission {
+  display: flex;
+  /* justify-content: center; */
+  margin-bottom: 64px;
+}
+
+.mission--title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.mission--container,
+.mission--about_part,
+.mission--contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mission--big_container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.mission--container {
+  max-width: 700px;
+  /* height: 700px; */
+  background-color: rgb(246, 249, 235);
+  padding: 100px 175px 100px 105px;
+  position: relative;
+}
+
+.mission--status_chip {
+  display: inline-block;
+  flex-shrink: 0;
+  border-radius: 50px;
+
+  color: var(--neutral-900, #1a1a1a);
+  text-align: center;
+  font-weight: 700;
+  line-height: 18px;
+
+  padding: 6px 16px;
+}
+
+.mission--status_accepted,
+.mission--status_registerOpen {
+  background: rgba(94, 129, 247, 0.5);
+  border: 1px solid var(--secondary-new, #5e81f7);
+}
+
+.mission--status_pending,
+.mission--status_inProgress {
+  border: 1px solid var(--secondary-closed, #ff7a00);
+  background: rgba(255, 122, 0, 0.5);
+}
+
+.mission--status_denied,
+.mission--status_registerClosed {
+  border: 1px solid var(--secondary-closed, #ff2727);
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.mission--status_done {
+  border: 1px solid var(--secondary-in-progress, #8de06a);
+  background: rgba(141, 224, 106, 0.5);
+}
+
+.mission--about_part,
+.mission--contacts,
+.mission--rewards,
+.mission--buttons {
+  max-width: 425px;
+}
+
+.mission--about_part_line1 {
+  display: flex;
+  gap: 20px;
+}
+
+.mission--description {
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 100px;
+  
+}
+
+.mission--contact,
+.mission--rewards,
+.mission--location,
+.mission--volunteer,
+.mission--result {
+  display: flex;
+  align-items: center;
+}
+
+.mission--contact_icon,
+.mission--reward_icon,
+.mission--location_icon,
+.mission--volunteer_icon,
+.mission--result_icon,
+.mission--volunteers_required img {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
+
+.mission--volunteer_email,
+.mission--result_status {
+  font-weight: 700;
+}
+
+.mission--contact_info,
+.mission--reward_value {
+  font-size: 16px;
+}
+
+#mission--contact_call {
+  font-size: 15px;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+.mission--volunteers_required {
+  display: flex;
+}
+
+.mission--admin_monitor_part {
+  padding: 16px 0;
+  border-top: 1px solid black;
+  color: darkred;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mission--buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.mission--button {
+  display: flex;
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+}
+
+.mission--join_button,
+.mission--check_button,
+.mision--check--admin_button {
+  border-radius: 100px;
+  background: var(
+    --brand-gradient,
+    linear-gradient(90deg, #46f04e 0%, #ade34d 100%)
+  );
+  border: none;
+}
+
+.mission--info_button {
+  border-radius: 100px;
+  border: 2px solid #2dda35;
+  background-color: rgb(246, 249, 235);
+}
+
+.mission--img {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: -400px;
+  width: 500px;
+}
+
+.mission--volunteer_info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .mission {
+    margin-bottom: 32px;
+  }
+
+  .mission--description {
+    font-size: 14px;
+  }
+
+  .mission--big_container {
+    width: 100vw;
+  }
+
+  .mission--container {
+    padding: 72px 16px 16px 16px;
+  }
+
+  .mission--img {
+    position: relative;
+    transform: translate(0, 0);
+    right: 0;
+    width: 100%;
+  }
+}
+button {
+  cursor: pointer;
+  width: 120px;
+}
+button:active {
+  opacity: 0.5;
+}
