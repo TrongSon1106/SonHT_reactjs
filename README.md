@@ -1,6 +1,6 @@
 # Logo
 
-<img src="images/Background.png" width="40%" alt='logo'>
+
 
 
 ## Demo App
