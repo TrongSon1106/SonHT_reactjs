@@ -4,7 +4,7 @@
 
 
 ## Demo App
-https://drive.google.com/file/d/1rzpQzCs642v4UIQn9d2vALdfHPNu_Hme/view?usp=sharing
+
 ## Table of Contents
 - [Logo](#logo)
   - [Demo App](#demo-app)
