@@ -17,25 +17,23 @@ https://drive.google.com/file/d/1rzpQzCs642v4UIQn9d2vALdfHPNu_Hme/view?usp=shari
     - [Installation](#installation)
 
 ## About
+This Blue - wave website was created to start an Water environmental organization that attracts volunteers to do Water environmental work and contribute positively to the Water environment.
 
-The M4K app makes it easy for children to study math in a more creative way. The app offers video lessons, games, and practice tests. The app's goal is to help the children to develop a love of learning math and study it effectively in the future
 ## Features
-- Lessons
-- Games
-- Practice Tests
+- Info
+- Activity
+- About Us
+- Latest Event
 
 ## Screenshots
 
-<img src="images/Screenone.jpg" width="40%" alt='screen1'>
-<img src="images/Screentwo.jpg" width="40%" alt='screen2'>
-<img src="images/Screenthree.jpg" width="40% alt='screen3'>
+
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.Js: https://nodejs.org/en
-- Expo: https://docs.expo.dev/get-started/installation/
 - Yarn: https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable
 
 ### Installation
@@ -45,7 +43,7 @@ The M4K app makes it easy for children to study math in a more creative way. The
 - Run the app using `yarn start` or another suitable command
 
 ```bash
-git clone https://github.com/akiyamahaa/expo-M4K.git
-cd expo-tech-app
+git clone git_url
+cd git_folder
 yarn
 yarn start
