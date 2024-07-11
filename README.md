@@ -1,10 +1,5 @@
-# Logo
-
-
-
-
-## Demo App
-
+## Demo Web
+https://blue-wavee.netlify.app/
 ## Table of Contents
 - [Logo](#logo)
   - [Demo App](#demo-app)
