@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { makeStyles } from "tss-react/mui"; // "tss-react/mui-compat" if your project is using Typescript < 4.4
 import "./Main.css";
 import gift from "./pictures/gifts.png";
-import volunteer2 from "./pictures/volunteern2.png";
+import volunteer2 from "./pictures/volunteer2.png";
 import { useNavigate } from "react-router";
 import ButtonGradient from "../../components/form/ButtonGradient";
 import { Box, Grid } from "@mui/material";
@@ -17,7 +17,8 @@ const Home = (props: Props) => {
   const navigate = useNavigate();
 
   const HandleToMissions = () => {
-    navigate("/missions");
+    navigate("/mission");
+    // navigate("/MissionDetails");
   };
 
   const handleToContact = () => {
@@ -40,14 +41,14 @@ const Home = (props: Props) => {
                   textAlign="center"
                   className="main--chungtoii"
                 >
-                  Chúng tôi là Blue Wave
+                  Chúng tôi là Green Env
                 </Grid>
                 <Grid item md={12} className="main--mission">
                   Nhiệm vụ của chúng tôi
                 </Grid>
                 <Grid item md={7} xs={12} className="main--la">
-                  cùng mọi người truyền cảm hứng và thúc đẩy phong trào Việt Nam về việc bảo vệ môi 
-                  trường bởi mỗi hành động nhỏ của các bạn cũng có thể tạo ra sự thay đổi lớn cho môi trường.
+                  là truyền cảm hứng, thúc đẩy và trao quyền cho các cá nhân 
+                  tham gia vào những phong trào môi trường tại Việt Nam.
                 </Grid>
               </Grid>
 
@@ -66,10 +67,10 @@ const Home = (props: Props) => {
           <div className="main--challenge">
             <h3 className="main--challenge_header">Thách thức</h3>
             <div className="main--challenge_content">
-            Trong thời gian gần đây, hàng triệu tấn rác thải nhựa thải ra môi trường đã trở thành vấn dề nghiêm 
-            trọng, không chỉ có đại dương, mà ngay cả các dòng sông và hồ nước cũng đang bị ô nhiễm bởi sự xả thải công 
-            nghiệp và sinh hoạt của người dân. Nếu tồn đọng lâu dài thì có thể sẽ tạo nên nhiều tác nhân xấu gây ảnh hưởng
-            đến hệ sinh thái của trái đất và cuộc sống của con người.
+            Trong bối cảnh đô thị hóa và tình trạng bùng nổ dân số 
+            gia tăng thì rác thải đã trở thành một vấn đề môi trường ngày càng nghiêm trọng. Rác thải 
+            gây ra rất nhiều vấn đề, như: mùi khó chịu, vi trùng gây bệnh, điều kiện sinh hoạt mất vệ sinh. Rác 
+            thải không được thu gom, tồn đọng, lâu ngày sẽ sinh ra các tác nhân tác động đến sức khoẻ con người.
             </div>
           </div>
 
@@ -124,8 +125,7 @@ const Home = (props: Props) => {
             </div>
             <img src={volunteer2} alt="fuck" className="main--volunteer2"></img>
             <h3 className="main--hayhanhdong">
-              “Hãy là phần của giải pháp, không phải là phần của vấn đề. Bắt đầu hành động ngay bây giờ để bảo vệ
-              môi trường cho tương lai tươi sáng”
+            “HÃY HÀNH ĐỘNG cùng nhau, chúng ta có thể cứu môi trường”
             </h3>
           </div>
         </main>

@@ -188,7 +188,7 @@
 
 .main--dump {
   width: 100%;
-  background-image: url("./pictures/dumpn1.png");
+  background-image: url("./pictures/dump1.png");
   display: flex;
   flex-direction: row;
   background-repeat: no-repeat;
@@ -232,7 +232,7 @@
 .main--second_pic {
   width: 300px;
   flex-shrink: 0;
-  background-image: url("./pictures/dumpn2.png");
+  background-image: url("./pictures/dump2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 90%;
@@ -242,7 +242,7 @@
 .main--third_pic {
   width: 400px;
   flex-shrink: 0;
-  background-image: url("./pictures/dumpn3.png");
+  background-image: url("./pictures/dump3.png");
   bottom: 0px;
   position: absolute;
   background-repeat: no-repeat;
@@ -327,7 +327,7 @@
 }
 
 .main--tiepcan {
-  background-image: url("./pictures/volunteern1.png");
+  background-image: url("./pictures/volunteer1.png");
   background-repeat: no-repeat;
   width: 100%;
   display: flex;

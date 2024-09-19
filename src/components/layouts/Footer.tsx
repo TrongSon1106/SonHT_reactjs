@@ -19,10 +19,10 @@ const Footer = () => {
           flex: 1,
         }}
       >
-        <div className="footer--company_name">(c) Blue Wave Viet Nam</div>
+        <div className="footer--company_name">(c) Green Env Viet Nam</div>
         <div className="footer--contacts">
-          <div className="footer--contact_gmail">bluewave@gmail.com</div>
-          <div className="footer--contact_call">(+84) 912 345 678</div>
+          <div className="footer--contact_gmail">greenenv@gmail.com</div>
+          <div className="footer--contact_call">(+84) 921 365 478</div>
         </div>
         <div className="footer--icons">
           <img src={twitterIcon} alt="" className="footer--icon" />
