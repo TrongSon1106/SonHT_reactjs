@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/SonHT_reactjs/static/css/main.b5282825.css",
+    "main.js": "/SonHT_reactjs/static/js/main.00328b5a.js",
+    "static/js/787.d94c4f79.chunk.js": "/SonHT_reactjs/static/js/787.d94c4f79.chunk.js",
+    "static/media/forest1.png": "/SonHT_reactjs/static/media/forest1.a4c985cab26e49b8754c.png",
+    "static/media/login-bg.png": "/SonHT_reactjs/static/media/login-bg.f06312fbb2d8f6d4b9b7.png",
+    "static/media/volunteer2.png": "/SonHT_reactjs/static/media/volunteer2.c78602d0a1661ac82f0a.png",
+    "static/media/dump1.png": "/SonHT_reactjs/static/media/dump1.96e739607976e2f6898a.png",
+    "static/media/volunteer1.png": "/SonHT_reactjs/static/media/volunteer1.febd47eebe4a306f3420.png",
+    "static/media/nhatrac.png": "/SonHT_reactjs/static/media/nhatrac.1cd0a8eeb05349ad06cf.png",
+    "static/media/dump3.png": "/SonHT_reactjs/static/media/dump3.baf36466e6a4d886e3db.png",
+    "static/media/genz1.png": "/SonHT_reactjs/static/media/genz1.3d385280494f13b0d40f.png",
+    "static/media/nhatrac2.png": "/SonHT_reactjs/static/media/nhatrac2.cccd0e33a77b9dafe9ae.png",
+    "static/media/genz2.png": "/SonHT_reactjs/static/media/genz2.516ddbc1657d3403d20f.png",
+    "static/media/dump2.png": "/SonHT_reactjs/static/media/dump2.7f0786784f5ae07b92ee.png",
+    "static/media/group-volunteers-collecting-garbage 3.png": "/SonHT_reactjs/static/media/group-volunteers-collecting-garbage 3.9f1313f6c854d5809d78.png",
+    "static/media/environment-volunteer-teamwork-concept 1.png": "/SonHT_reactjs/static/media/environment-volunteer-teamwork-concept 1.7e131e19f3a0d524900b.png",
+    "static/media/environment-volunteer-concept 1.png": "/SonHT_reactjs/static/media/environment-volunteer-concept 1.f0ac883d8a0dd5f38f03.png",
+    "static/media/gifts.png": "/SonHT_reactjs/static/media/gifts.ac1f6743285c1ed2554d.png",
+    "static/media/logoGreen.png": "/SonHT_reactjs/static/media/logoGreen.4edbdc6cfd64697b0895.png",
+    "static/media/ic_social-twitter 1.svg": "/SonHT_reactjs/static/media/ic_social-twitter 1.f99d25c0d3a69f63f1a8ef95ed150616.svg",
+    "static/media/ic_instagram 1.svg": "/SonHT_reactjs/static/media/ic_instagram 1.d6a8d46d3f6f1721a608d4175076ee17.svg",
+    "static/media/ic_dribbble 1.svg": "/SonHT_reactjs/static/media/ic_dribbble 1.be767fad533a2fb2b06e7c45e8e4b8ff.svg",
+    "index.html": "/SonHT_reactjs/index.html",
+    "static/media/Group 24.svg": "/SonHT_reactjs/static/media/Group 24.988b403f46f59c95883bb5d3f06e049d.svg",
+    "static/media/end icon.svg": "/SonHT_reactjs/static/media/end icon.3950d76f5a0803dd49760b53d9fa084d.svg",
+    "static/media/user-solid.svg": "/SonHT_reactjs/static/media/user-solid.25c7a2c4478e96f8be7eddc9f7c01f5b.svg",
+    "static/media/Ellipse 4.svg": "/SonHT_reactjs/static/media/Ellipse 4.821ed7843f5edd1dad4af6d1a39af1a8.svg",
+    "static/media/Ellipse 5.svg": "/SonHT_reactjs/static/media/Ellipse 5.19983c1d993e017b77b844f04e4bffce.svg",
+    "static/media/Ellipse 3.svg": "/SonHT_reactjs/static/media/Ellipse 3.7e2d6ad2dd6f28ce5e95f715dfe82599.svg",
+    "main.b5282825.css.map": "/SonHT_reactjs/static/css/main.b5282825.css.map",
+    "main.00328b5a.js.map": "/SonHT_reactjs/static/js/main.00328b5a.js.map",
+    "787.d94c4f79.chunk.js.map": "/SonHT_reactjs/static/js/787.d94c4f79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5282825.css",
+    "static/js/main.00328b5a.js"
+  ]
+}
