@@ -1,1 +1,6 @@
-20.12.2
+[build]
+  command = "npm run build"  # This is the command Netlify will run to build your site
+  publish = "build"          # Directory to deploy (for React or similar projects)
+
+[build.environment]
+  NODE_VERSION = "20.12.2"    # Specify the Node.js version you want to use
