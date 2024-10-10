@@ -2,7 +2,7 @@ import React from "react";
 import { Navigate, Outlet, useLocation } from "react-router-dom";
 import { RootState, useAppSelector } from "../stores";
 
-type Props = {};
+// type Props = {};
 // ts-ignore
 const GuestRoute = () => {
   const location = useLocation();

@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import { useNavigate } from "react-router";
+// import { useNavigate } from "react-router";
 
 type Props = {};
 
