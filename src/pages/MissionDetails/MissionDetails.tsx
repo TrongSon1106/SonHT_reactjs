@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./MissionDetails.css";
-import map from "./components/img/map.png";
+// import map from "./components/img/map.png";
 import callIcon from "./components/img/ic_call.png";
 import locationIcon from "./components/img/ic_location_on.png";
-import missionImg from "./components/img/Rectangle 6.png";
+// import missionImg from "./components/img/Rectangle 6.png";
 import dot1 from "./components/img/Ellipse 3.svg";
 import dot2 from "./components/img/Ellipse 4.svg";
 import dot3 from "./components/img/Ellipse 5.svg";
 import userIcon from "./components/img/user-solid.svg";
 import { useParams } from "react-router-dom";
-import { IMission } from "../../types/mission";
-import { doc, getDoc } from "firebase/firestore";
-import { firebaseDB } from "../../setup/firebase";
+// import { IMission } from "../../types/mission";
+// import { doc, getDoc } from "firebase/firestore";
+// import { firebaseDB } from "../../setup/firebase";
 import { missions } from "../../data/mockup";
 
 type Props = {

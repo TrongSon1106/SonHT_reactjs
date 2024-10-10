@@ -3,8 +3,8 @@ import { Navigate, Outlet, useLocation } from "react-router-dom";
 import { RootState, useAppSelector } from "../stores";
 
 type Props = {};
-
-const GuestRoute = ({}: Props) => {
+// ts-ignore
+const GuestRoute = () => {
   const location = useLocation();
   const { user } = useAppSelector((state: RootState) => state.user);
   return user ? (

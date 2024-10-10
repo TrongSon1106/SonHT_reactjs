@@ -1,7 +1,3 @@
-import { collection, doc, setDoc } from "firebase/firestore";
-import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
-
-import { firebaseDB, firebaseStorage } from "../setup/firebase";
 import { IMission } from "../types/mission";
 
 // const missionSample: IMission[] = [

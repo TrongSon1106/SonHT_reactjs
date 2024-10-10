@@ -3,7 +3,7 @@ import callIcon from "./img/ic_call.png";
 import locationIcon from "./img/ic_location_on.png";
 import rewardIcon from "./img/ic_database.png";
 import userIcon from "./img/user-solid.svg";
-import missionImg from "./img/mission-img.png";
+// import missionImg from "./img/mission-img.png";
 import "./MissionCard.css";
 import { useNavigate } from "react-router-dom";
 import { IMission } from "../../../types/mission";

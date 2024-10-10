@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import {
   Box,
-  Button,
   IconButton,
   InputBase,
   InputBaseProps,
 } from "@mui/material";
 import { makeStyles } from "tss-react/mui";
-import { RemoveRedEye, Visibility, VisibilityOff } from "@mui/icons-material";
+import { Visibility, VisibilityOff } from "@mui/icons-material";
 
 type Props = {
   showIcon?: boolean;

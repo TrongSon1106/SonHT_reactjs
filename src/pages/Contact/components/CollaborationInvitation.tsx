@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./CollaborationInvitation.css";
 import sendIcon from "./img/end icon.svg";
 import { useState } from "react";
-import { Grid } from "@mui/material";
 import { contactData } from "../Contact";
 
 const CollaborationInvitation = () => {
