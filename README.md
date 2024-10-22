@@ -1,44 +1,31 @@
-## Demo Web
-https://blue-wavee.netlify.app/
-## Table of Contents
-- [Logo](#logo)
-  - [Demo App](#demo-app)
-  - [Table of Contents](#table-of-contents)
-  - [About](#about)
-  - [Features](#features)
-  - [Screenshots](#screenshots)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
+<img src="https://raw.githubusercontent.com/trongson1106/SonHT_reactjs/refs/heads/main/demo/logoGreen.png" width="100" height="100">
 
-## About
-This Blue - wave website was created to start an Water environmental organization that attracts volunteers to do Water environmental work and contribute positively to the Water environment.
+# **GreenEnv Application**
 
-## Features
-- Info
-- Activity
-- About Us
-- Latest Event
+**GreenEnv** an educational platform dedicated to protecting our planet! At GreenEnv, we provide valuable resources, engaging content, and practical tips to help you understand and take action against environmental challenges. Whether you're a student, teacher, or eco-enthusiast, our website offers tools and knowledge to promote sustainability, reduce waste, and make a positive impact on the environment.
 
-## Screenshots
+## [DEMO - DRIVE](https://drive.google.com/file/d/1GDBghramBHTPzRlGQtFAOj5Wk4jTQJ-e/view)
 
+## Key Features
 
+- **Topic-Based Learning**: Lectures are divided into various topics such as land environment, water environment, and more, making it easy for children to explore different aspects of environmental science.
+- **Curated Content**: All lectures are carefully selected and developed before being posted on the app, ensuring that children receive accurate and quality educational materials.
+![DEMO](https://github.com/trongson1106/SonHT_reactjs/blob/main/demo/demo1.png?raw=true)
 
-## Getting Started
+- **Interactive Quizzes**: After each lesson, children can take multiple choice exercises to assess their understanding of the topic.
+![DEMO](https://github.com/trongson1106/SonHT_reactjs/blob/main/demo/demo2.png?raw=true)
 
-### Prerequisites
+- **Environmental Activities and Stories**: The app includes a collection of social activities related to environmental protection and inspiring stories that promote empathy and environmental awareness among children.
 
-- Node.Js: https://nodejs.org/en
-- Yarn: https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable
+![DEMO](https://github.com/trongson1106/SonHT_reactjs/blob/main/demo/demo3.png?raw=true)
 
-### Installation
+## Technology Stack
 
-- Clone the repository to your local machine
-- Install dependencies using npm or yarn
-- Run the app using `yarn start` or another suitable command
+- **ReactJS**: Enables cross-platform development, ensuring GreenEdu works seamlessly on both iOS and Android devices.
 
-```bash
-git clone git_url
-cd git_folder
-yarn
-yarn start
+- **Redux Toolkits**: Manages the app's state efficiently, ensuring smooth interactions, including progress tracking and handling lessons and quizzes.
+
+- **Supabase**:
+  - **Authentication**: Provides secure login and user management, allowing children to track their progress in the app.
+  - **Realtime Database**: Offers real-time updates on lesson completion, quiz results, and other interactions, ensuring a dynamic learning experience.
+  - **File Storage**: Handles the storage of lecture materials, quizzes, and other educational content, providing quick and easy access for users.
